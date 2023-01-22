@@ -1,0 +1,48 @@
+/* .sign-in-container{
+    width: 400px;
+    margin:  auto;
+    background-color:#D7DBDD;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+
+.sign-up{
+    color: #179b5d;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.sign-up-text:hover {
+    color: #096e3f;
+
+}
+
+.sign-up-div{
+   text-align: center;
+    margin-top: 40px;
+}
+
+.sign-in-header{
+    text-align: center;
+}
+
+.sign-in-ccontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.forgot-password{
+    text-decoration: none;
+
+}
+ */
+
+
+ @media only screen and (max-width: 600px) {
+    .sign-in-container{
+        padding: 7%;
+    }
+  }

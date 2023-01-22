@@ -1,0 +1,13 @@
+.oauth-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.google-icon{
+    width: 30px;
+    height: auto;
+}
+
+.google-icon:hover{
+    cursor: pointer;
+}

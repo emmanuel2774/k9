@@ -1,0 +1,46 @@
+.change-details-container {
+    width: 70%;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.update-form-container{
+    width: 70%;
+    background-color: #D7DBDD;
+    padding: 5%;
+}
+
+.details-button{
+   display: block;
+}
+
+
+.edit-buttons{
+    display: flex;
+    align-items: center;
+   
+}
+.cancel{
+   margin-left: 40px;
+}
+
+.personal-details-container{
+    animation-name: edit-details-animation;
+    animation-duration: 1s;
+}
+
+
+.sell-and-signOut-buttons{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.user-dogs{
+    padding: 3%;
+}
+@keyframes edit-details-animation {
+    0% {opacity: 0;}
+    50% {opacity: 0.5;}
+    100% {opacity: 1;}
+}

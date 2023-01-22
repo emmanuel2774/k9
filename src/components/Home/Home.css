@@ -1,0 +1,54 @@
+.header-section {
+    width: 50%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 40px;
+    /* border-bottom: 2px solid #096e3f; */
+    color: #096e3f; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dogs-cards{
+    padding: 20px;
+}
+
+
+
+.spinner{
+    padding: 10%;
+}
+
+.cards-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .header-section {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        height: 100px;
+        justify-content: space-between;
+    }
+
+    .cards-container{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+
+    
+
+   
+  }

@@ -1,0 +1,32 @@
+.sell-dog-container{
+    padding: 5%;
+    height: 600px;
+}
+
+
+
+.form {
+    padding: 5%;
+    margin: 0 auto;
+    background-color:#D7DBDD;
+    text-align: center;
+    height: 90%;
+}
+
+.Sell-button{
+    width: 200px;
+}
+
+.image-text{
+    font-size: 12px;
+}
+@media only screen and (min-width: 600px) {
+    .sell-dog-container{
+        padding: 2%;
+        height: 600px;
+    }
+
+    .form{
+        width: 40%;
+    }
+  }
